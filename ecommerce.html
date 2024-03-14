@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            text-align: center;
+        }
+        .one{
+            margin-left: 90px;
+        }
+    </style>
+</head>
+<body>
+   <div class="card">
+    <h1 style="color: red;">E-Commerce Page</h1>
+    <div>
+        <label for="">Stock Item</label>
+        <input type="text" value="" id="Stockitem"><br><br>
+    </div>
+    <div class="one">
+        <label for="">Image</label>
+        <input type="file" value="" id="imgid"><br><br>
+    </div>
+    <div >
+        <label for="">Qty</label>
+        <input type="text" value="" id="qty"><br><br>
+    </div>
+    <div>
+        <label for="">Rate</label>
+        <input type="number" value="" id="rate"><br><br>
+    </div>
+    <div><label for="">Amout</label>
+        <input type="number" value="" id="amount"></div><br><br>
+    <div>
+        <input  type="button" value="Submit" id="btn"></div>
+        <table border="1">
+            <thead>
+                <th>Stockitem</th>
+                <th>Image</th>
+                <th>City</th>
+                <th>Rate</th>
+                <th>Amout</th>
+            </thead>
+            <tbody id="tableid"></tbody>
+        </table>
+   </div>
+</body>
+<script src="ecommerce.js"></script>
+</html>
